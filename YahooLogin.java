@@ -15,6 +15,7 @@ public class YahooLogin {
 		driver.manage().window().maximize();
 
 		driver.findElement(By.name("username")).sendKeys("test_sudeep");
+		//Updated comment
 		// driver.findElement(By.name("persistent")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.name("signin")).click();
